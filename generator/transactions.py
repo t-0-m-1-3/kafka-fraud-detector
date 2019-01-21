@@ -21,7 +21,7 @@ def create_random_transaction():
     return dict({
         'source': _random_account_id(),
         'target': _random_account_id(),
-        # 'amount': _random_amount(),
+        'amount': _random_amount(),
         # Keep it simple: it's all euros
-        # 'currency': 'EUR',
+        'currency': 'EUR',
     })
